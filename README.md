@@ -7,6 +7,7 @@ A summary of my repositories
  - Data Science
 	 - [Filament Review Analysis](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#filament-review-analysis----link)
 	 - [Deep Learning Project - Pistachio Image Classification](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#deep-learning-project---pistachio-image-classification---link)
+	 - [Applying Painting Style using GAN]()
 	 - [PyDrawNet](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#pydrawnet---link)
  - Other
  - 
@@ -36,6 +37,23 @@ For this project I chose to tackle an image classification problem presented by 
 The general steps of the project included exploring and pre-processing the data, preparing the model(s), training the models, and evaluating their performance.
 
 The final model achieved a validation F1-Score of 0.98, indicating that it had effectively learned to classify the pistachios.
+
+## Applying Painting Style using GAN - [Link](https://github.com/nhansendev/DTSA5511_Week5Project/blob/main/project.ipynb)
+![image](https://github.com/user-attachments/assets/89e73f2d-96b7-45e4-b8a6-88ed237bbe21)
+![image](https://github.com/user-attachments/assets/71e86de2-9d65-4e35-b281-b8a8bdc3d4c0)
+
+**Tools Used:**
+ - python
+	 - numpy, torch, torchvision, matplotlib, pillow
+ - CNN, Deep Learning, Image Augmentation, Image Classification
+ 
+ **Abstract:**
+The dataset for this project is provided via the Kaggle "GAN Getting Started"/"I'm Something of a Painter Myself"  [competition](https://www.kaggle.com/competitions/gan-getting-started). The goal of the project is to use a Generative Adversarial Network (GAN) to adapt real photos to the style of Claude Monet, a famous French painter, using examples of his artwork.
+
+To reach this goal the dataset (images) will be explored and pre-processed, then a GAN-based model will be trained and used to generate adapted images. The images will then be submitted for a final score in the competition.
+
+GANs are notoriously difficult to train, and while the model performed well in the numeric Kaggle evaluation, the subjective performance of the model was poor. Despite many manual iterations of hyperparameter tuning, model architecture exploration, and other tweaks, no models capable of "believable" style tranfer arose.
+
 
 ## PyDrawNet - [Link](https://github.com/nhansendev/PyDrawNet)
 A python utility for plotting neural network (and other) diagrams
