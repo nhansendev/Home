@@ -11,7 +11,8 @@ A summary of my repositories
 	 - Twitter Message Content Classification
 	 - Cancerous Cell Detection
 	 - Australian Weather Clustering
-  	 - News Article Topic Classification
+	 - News Article Topic Classification
+	 - Patient Stroke Prediction
  - Other
 	 - PyDrawNet
  - 
@@ -125,6 +126,26 @@ Logistic Regression models were fit with a testing accuract of ~99%, while NMF m
 - Logistic Regression requires labeled data, but is fast to train
 - NFM does not require labeled data, but is slower
 - Both can achieve similar levels of accuracy for this task
+
+## Patient Stroke Prediction - [Link](https://github.com/nhansendev/DTSA5509_Final/blob/main/final_notebook.ipynb)
+![image](https://github.com/user-attachments/assets/71139713-eefa-4e0f-9839-99cd51c8a832)
+![image](https://github.com/user-attachments/assets/e4adde2c-c9ae-4645-b571-8fd68ad3f8e5)
+
+**Tools Used:**
+ - python
+	 - numpy, pandas, matplotlib, scikit-learn
+ - Regression, Cross-Validation, KNN, Random Forest, PCA, Descision Tree, SVM
+ 
+ **Abstract:**
+For this project I chose to analyze a stroke dataset provided by kaggle. The dataset contains 5110 observations (patients) with 12 attributes, including a binary classification for whether they did or didn't have a stroke. The original source of the data is described as "confidential", and any attributes that might be used to personally identify a patient have been omitted (e.g. name and location). The goal of this project was to develop models capable of accurately predicting which patients are at risk of strokes using the available data. This required cleaning and preprocessing of the data followed by model selection, evaluation, and optimization.
+
+Three methods of data preparation were considered; using PCA to perform dimensionality reduction, using standardized data, and using one-hot encoded data. Models trained on the one-hot encoded data had the highest F1-Scores when predicting on testing data, though there were other models with better recall. Since the consequences of false-negatives could be harmful in a medical setting, it was determined that models with higher false-positive rates were preferable (associated with higher recall). The highest test recall achieved by a model was 0.92, though its precision was 0.18.
+
+Overall, three models were selected for further consideration depending on the requirements of their specific appliction (tradeoffs of precision and recall):
+- RandomForest trained on one-hot encoded data
+- SVC trained on one-hot encoded data
+- An ensemble of the top three models (RandomForest, AdaBoost, and LogisticRegression, each trained on one-hot encoded data)
+
 
 # Other
 
