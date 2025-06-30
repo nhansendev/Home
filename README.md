@@ -2,6 +2,15 @@
 # Home
 A summary of my repositories
 
+### Index
+
+ - Data Science
+	 - [Filament Review Analysis](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#filament-review-analysis----link)
+	 - [Deep Learning Project - Pistachio Image Classification](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#deep-learning-project---pistachio-image-classification---link)
+	 - [PyDrawNet]()
+ - Other
+ - 
+
 # Data Science
 ## Filament Review Analysis -  [Link](https://github.com/nhansendev/FilamentReviewAnalysis)
 **Tools Used:**
@@ -28,7 +37,11 @@ The general steps of the project included exploring and pre-processing the data,
 
 The final model achieved a validation F1-Score of 0.98, indicating that it had effectively learned to classify the pistachios.
 
+## PyDrawNet - [Link](https://github.com/nhansendev/PyDrawNet)
+A python utility for plotting neural network (and other) diagrams
+![image](https://github.com/user-attachments/assets/42dabde1-b3ab-4474-a352-0f524983f527)
 
+# Other
 
 
 > Written with [StackEdit](https://stackedit.io/).
