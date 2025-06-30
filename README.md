@@ -21,6 +21,8 @@ A summary of my repositories
    	 - RectanglePack
    	 - PDF Combine
    	 - PyAudioPlayer
+   	 - TimeMarkers
+   	 - AutoConfig
 
 # Data Science
 ## 3D Printer Filament Customer Review Topic Modeling -  [Link](https://github.com/nhansendev/FilamentReviewAnalysis)
@@ -192,9 +194,11 @@ A python utility for automatically combining and trimming PDF files
 An audio player GUI with yt_dlp integration, made in python using PySide6.
 ![image](https://github.com/user-attachments/assets/183034ac-0dae-40ab-a3e0-f8a472b8d6b9)
 
+## TimeMarkers - [Link](https://github.com/nhansendev/TimeMarkers)
+Some simple Python time tracking utilities
 
-
-
+## AutoConfig - [Link](https://github.com/nhansendev/AutoConfig)
+A python utility for reading/writing custom YAML configuration files
 
 
 > Written with [StackEdit](https://stackedit.io/).
