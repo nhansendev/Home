@@ -184,6 +184,7 @@ Python scripts for automating BOM operations in KiCAD
 
 ## RectanglePack - [Link](https://github.com/nhansendev/RectanglePack)
 This Python project expands on the capabilities of the rectangle-packer package primarily by adding efficient rotation checking (missing from the base package), the ability to maximize area usage of stock, and multi-sheet packing.
+
 ![image](https://github.com/user-attachments/assets/b3c66ee1-f97a-42d1-90c3-46171b375029)
 
 ## PDF Combine - [Link](https://github.com/nhansendev/PDFCombine)
@@ -199,6 +200,3 @@ Some simple Python time tracking utilities
 
 ## AutoConfig - [Link](https://github.com/nhansendev/AutoConfig)
 A python utility for reading/writing custom YAML configuration files
-
-
-> Written with [StackEdit](https://stackedit.io/).
