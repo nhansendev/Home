@@ -7,7 +7,7 @@ A summary of my repositories
  - Data Science
 	 - [Filament Review Analysis](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#filament-review-analysis----link)
 	 - [Deep Learning Project - Pistachio Image Classification](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#deep-learning-project---pistachio-image-classification---link)
-	 - [Applying Painting Style using GAN]()
+	 - [Applying Painting Style using GAN](https://github.com/nhansendev/Home/blob/main/README.md#applying-painting-style-using-gan---link)
 	 - [PyDrawNet](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#pydrawnet---link)
  - Other
  - 
