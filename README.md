@@ -13,6 +13,7 @@ A summary of my repositories
 	 - Cancerous Cell Detection
 	 - Australian Weather Clustering
 	 - News Article Topic Classification
+  	 - Tweet Network Analysis
 	 - Patient Stroke Prediction
   	 - New York Shooting Incidents
  	 - COVID Trends
@@ -163,6 +164,21 @@ Logistic Regression models were fit with a testing accuract of ~99%, while NMF m
 - Logistic Regression requires labeled data, but is fast to train
 - NFM does not require labeled data, but is slower
 - Both can achieve similar levels of accuracy for this task
+
+## Tweet Network Analysis - [Link](https://github.com/nhansendev/DTSA5800_Final/blob/main/DTSA5800_final_project.ipynb)
+![image](https://github.com/user-attachments/assets/f16685af-de90-4c29-86ac-d0ad4bc1ff76)
+
+**Tools Used:**
+ - python
+	 - numpy, pandas, matplotlib, nltk
+ - NLP, Network Analysis, Semantic Graphs
+ 
+**Abstract:**
+The goal of this project was to use network analysis on tweets to compare how consumers discuss the brands Nike, Adidas, and Lululemon.
+
+To accomplish this two network graphs were created; one for "mentions" between tweets, and one for the semantics of word use in tweets.
+
+The graphs allowed some useful conclusions to be drawn about the data, seeming to reflect popular topics at the time the data was gathered. However, it was noted that individual users were capable of skewing the results through a high volume of tweets, which may require more careful filtering.
 
 ## Patient Stroke Prediction - [Link](https://github.com/nhansendev/DTSA5509_Final/blob/main/final_notebook.ipynb)
 ![image](https://github.com/user-attachments/assets/71139713-eefa-4e0f-9839-99cd51c8a832)
