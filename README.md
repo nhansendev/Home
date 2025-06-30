@@ -14,6 +14,8 @@ A summary of my repositories
 
 # Data Science
 ## Filament Review Analysis -  [Link](https://github.com/nhansendev/FilamentReviewAnalysis)
+![image](https://github.com/user-attachments/assets/04af90b0-702a-4e70-8c98-c8d53aff3530)
+
 **Tools Used:**
  - python
 	 - numpy, pandas, matplotlib, sentence_transformers, scikit-learn, nltk, bertopic, scipy, hdbscan, torch, ipywidgets
