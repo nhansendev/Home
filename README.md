@@ -10,6 +10,7 @@ A summary of my repositories
 	 - [Applying Painting Style using GAN](https://github.com/nhansendev/Home/blob/main/README.md#applying-painting-style-using-gan---link)
 	 - Twitter Message Content Classification
 	 - Cancerous Cell Detection
+	 - Australian Weather Clustering
  - Other
 	 - [PyDrawNet](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#pydrawnet---link)
  - 
@@ -76,7 +77,7 @@ The goal of the project was be to clean, explore, and encode the data, then trai
 
 **Tools Used:**
  - python
-	 - numpy, torch, scikit-learn, torchvision, matplotlib, 
+	 - numpy, torch, scikit-learn, torchvision, matplotlib
  - CNN, Deep Learning, Image Augmentation, Image Classification
  
  **Abstract:**
@@ -87,6 +88,23 @@ More specifically, per the data description on Kaggle: "A positive label indicat
 Convolutional Neural Network (CNN) based models will be trained towards this goal since they have been proven effective for image-based analysis tasks.
 
 Four models were trained for this goal, with each scoring between 76% - 81% accuracy during testing, with the results likely suffering from over-fitting. Basic ensembling was attempted, but did not improve upon the best individual score.
+
+## Australian Weather Clustering - [Link](https://github.com/nhansendev/DTSA5510_Final/blob/main/project.ipynb)
+![image](https://github.com/user-attachments/assets/bb911a0d-f83b-4af8-aedf-6aa16caa746c)
+
+**Tools Used:**
+ - python
+	 - numpy, pandas, matplotlib, scikit-learn
+ - PCA, K-Means, T-SNE
+ 
+ **Abstract:**
+For this project I chose a dataset describing weather in Australia, retrieved from Kaggle. The dataset covers about 10 years of daily weather observations from 49 weather stations across Australia. Each observation includes 23 features, such as date, location, temperature, humidity, etc.
+
+Unsupervised clustering analysis will be performed to gain a better understanding of trends in the data.
+
+The KMeans algorithm was used to cluster the weather stations by their weather patterns, resulting in a North-South divide with strong correlations to the maximum daily temperature.
+
+Between the dimensionality reduction algorithms Principle Component Analysis (PCA) and t-Distributed Stochastic Neighbor Embedding (TSNE) it was found that the more complex, non-linear embedding performed by TSNE better captured the structure of the data while translating to lower dimensions. PCA lost most of the available information during the transformation, but still produced plots that could be used to compare relationships between features. Since TSNE is a much slower algorithm, this results in a tradeoff between processing time and embedded feature fidelity.
 
 # Other
 
