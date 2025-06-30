@@ -8,6 +8,7 @@ A summary of my repositories
 	 - 3D Printer Filament Customer Review Topic Modeling
 	 - Pistachio Image Classification
 	 - Applying Painting Style using GAN
+  	 - Extracting Insights from Nike Product Reviews
 	 - Twitter Message Content Classification
 	 - Cancerous Cell Detection
 	 - Australian Weather Clustering
@@ -68,6 +69,34 @@ The dataset for this project is provided via the Kaggle "GAN Getting Started"/"I
 To reach this goal the dataset (images) will be explored and pre-processed, then a GAN-based model will be trained and used to generate adapted images. The images will then be submitted for a final score in the competition.
 
 GANs are notoriously difficult to train, and while the model performed well in the numeric Kaggle evaluation, the subjective performance of the model was poor. Despite many manual iterations of hyperparameter tuning, model architecture exploration, and other tweaks, no models capable of "believable" style tranfer arose.
+
+## Extracting Insights from Nike Product Reviews - [Link](https://github.com/nhansendev/DTSA5799_Final/blob/main/dtsa_5799_final.ipynb)
+![image](https://github.com/user-attachments/assets/b390b9c4-9415-42e4-bcc8-4fb6a4c75d6f)
+
+**Tools Used:**
+ - python
+	 - numpy, matplotlib, nltk, scipy, lda
+ - NLP, LDA, Clustering
+ 
+ **Abstract:**
+The goal of this project was to extract useful product and marketing insights from product reviews using topic modeling. In this case, the provided dataset is composed of real Amazon reviews, which have been filtered to focus on clothing, and which will be further filtered to focus on Nike branded products specifically.
+
+From the collected topic descriptions some concepts can be inferred:
+- Nike products are often purchased as gifts for family members, especially sons and for Christmas presents
+	- Marketing could lean-into these concepts when designing advertising
+- Customers appreciate being able to find the products they want online, which are often not available locally
+	- Further analysis might identify products that are often desired at local retailers, but not available.
+	- Adjusting stocking practices may drive more sales.
+- Some lines of footwear commonly run small compared to expectations, such as when compared to other brands
+	- Adjusting the sizing guides to match expectations may improve customer experience
+- Customers are sensitive to the returns process and dislike added shipping costs
+	- Working with local retailers to provide a free dropoff option for returns may improve the customer experience (if not already an option)
+- Some lines of footwear were found to start squeaking excessively, or quickly started falling apart, which annoyed customers
+	- This could indicate an error in the manufacturing process, or a necessary design change for these products
+
+While the current topics are informative, it's clear that we could benefit for more specific information:
+- Analyzing reviews over time could clarify whether these are ongoing problems, since they may have already been fixed.
+- Category 8 "watch_band_wrist_battery" has a significantly below average rating, suggesting that there are aspects of the watches that are in need of improvement. Breaking-out this category into multiple watch sub-categories (by filtering reviews to only watches and repeating topic generation, for example) could be useful for determining exactly what the problems are.
 
 ## Twitter Message Content Classification - [Link](https://github.com/nhansendev/DTSA5511_W4/blob/main/project.ipynb)
 ![image](https://github.com/user-attachments/assets/19244eaf-24e4-44a4-ade9-31e207975e6a)
