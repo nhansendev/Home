@@ -9,6 +9,7 @@ A summary of my repositories
 	 - [Deep Learning Project - Pistachio Image Classification](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#deep-learning-project---pistachio-image-classification---link)
 	 - [Applying Painting Style using GAN](https://github.com/nhansendev/Home/blob/main/README.md#applying-painting-style-using-gan---link)
   	 - Twitter Message Content Classification
+    	 - Cancerous Cell Detection
  - Other
 	 - [PyDrawNet](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#pydrawnet---link)
  - 
@@ -62,13 +63,30 @@ GANs are notoriously difficult to train, and while the model performed well in t
 
 **Tools Used:**
  - python
-	 - numpy, torch, scikit-learn, matplotlib, nltk, spacy, gensim, 
+	 - numpy, torch, scikit-learn, matplotlib, nltk, spacy, gensim
  - LSTM, NLP, Text Classification
  
  **Abstract:**
 The dataset to be analyzed was provided via Kaggle and consists of 10000 Twitter messages hand-classified on whether they are about disasters or not.
 
 The goal of the project was be to clean, explore, and encode the data, then train Recurrent Neural Network (RNN) models to perform Natural Language Processing (NLP) to predict the disaster/not disaster labels.
+
+## Cancerous Cell Detection - [Link](https://github.com/nhansendev/DTSA5511_W3/blob/main/project.ipynb)
+![image](https://github.com/user-attachments/assets/11eee528-2b0b-469c-bd4a-c6f995bd5e03)
+
+**Tools Used:**
+ - python
+	 - numpy, torch, scikit-learn, torchvision, matplotlib, 
+ - CNN, Deep Learning, Image Augmentation, Image Classification
+ 
+ **Abstract:**
+For this project the target dataset is a set of images of histopathologic scans (tissue magnified via microscope) of lymph node sections, which may or may not contain metastatic tissue (cancer). The dataset is hosted via Kaggle, with the goal of identifying which images include metatstic tissue.
+
+More specifically, per the data description on Kaggle: "A positive label indicates that the center 32x32px region of a patch contains at least one pixel of tumor tissue. Tumor tissue in the outer region of the patch does not influence the label. This outer region is provided to enable fully-convolutional models that do not use zero-padding, to ensure consistent behavior when applied to a whole-slide image."
+
+Convolutional Neural Network (CNN) based models will be trained towards this goal since they have been proven effective for image-based analysis tasks.
+
+Four models were trained for this goal, with each scoring between 76% - 81% accuracy during testing, with the results likely suffering from over-fitting. Basic ensembling was attempted, but did not improve upon the best individual score.
 
 # Other
 
