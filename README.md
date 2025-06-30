@@ -23,6 +23,7 @@ A summary of my repositories
    	 - PyAudioPlayer
    	 - TimeMarkers
    	 - AutoConfig
+   	 - DictionaryPrint
 
 # Data Science
 ## 3D Printer Filament Customer Review Topic Modeling -  [Link](https://github.com/nhansendev/FilamentReviewAnalysis)
@@ -200,3 +201,6 @@ Some simple Python time tracking utilities
 
 ## AutoConfig - [Link](https://github.com/nhansendev/AutoConfig)
 A python utility for reading/writing custom YAML configuration files
+
+## DictionaryPrint - [Link](https://github.com/nhansendev/DictionaryPrint)
+A python utility for printing out dictionary contents in an easily readable format.
