@@ -5,14 +5,14 @@ A summary of my repositories
 ### Index
 
  - Data Science
-	 - [Filament Review Analysis](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#filament-review-analysis----link)
-	 - [Pistachio Image Classification](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#pistachio-image-classification---link)
-	 - [Applying Painting Style using GAN](https://github.com/nhansendev/Home/blob/main/README.md#applying-painting-style-using-gan---link)
+	 - 3D Printer Filament Customer Review Topic Modeling
+	 - Pistachio Image Classification
+	 - Applying Painting Style using GAN
 	 - Twitter Message Content Classification
 	 - Cancerous Cell Detection
 	 - Australian Weather Clustering
  - Other
-	 - [PyDrawNet](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#pydrawnet---link)
+	 - PyDrawNet
  - 
 
 # Data Science
