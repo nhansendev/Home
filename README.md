@@ -13,6 +13,8 @@ A summary of my repositories
 	 - Australian Weather Clustering
 	 - News Article Topic Classification
 	 - Patient Stroke Prediction
+  	 - New York Shooting Incidents
+    	 - COVID Trends
  - Other
 	 - PyDrawNet
  - 
@@ -145,6 +147,24 @@ Overall, three models were selected for further consideration depending on the r
 - RandomForest trained on one-hot encoded data
 - SVC trained on one-hot encoded data
 - An ensemble of the top three models (RandomForest, AdaBoost, and LogisticRegression, each trained on one-hot encoded data)
+
+## New York Shooting Incidents - [Link](https://html-preview.github.io/?url=https://github.com/nhansendev/DTSA5301_Final/blob/main/NY_Data.html)
+![image](https://github.com/user-attachments/assets/9c5bc25c-7237-4ef7-b3d2-b4f0fa8dc754)
+
+**Tools Used:**
+ - R
+ 
+ **Abstract:**
+ The goal of this project was to identify trends in shooting incident data (retrieved from the city of New York [website](https://opendata.cityofnewyork.us/)), which required data to be imported, cleaned, and analyzed.
+
+ ## COVID Trends - [Link](https://html-preview.github.io/?url=https://github.com/nhansendev/DTSA5301_Final/blob/main/COVID_Data.html)
+![image](https://github.com/user-attachments/assets/32854f18-b6dd-4ec7-9d8d-5a8c0ab7ed06)
+
+**Tools Used:**
+ - R
+ 
+ **Abstract:**
+ The goal of this project was to identify trends in COVID-19 data (retrieved from John Hopkins University), which required data to be imported, cleaned, and analyzed.	
 
 
 # Other
