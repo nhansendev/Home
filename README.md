@@ -62,7 +62,7 @@ To reach this goal the dataset (images) will be explored and pre-processed, then
 GANs are notoriously difficult to train, and while the model performed well in the numeric Kaggle evaluation, the subjective performance of the model was poor. Despite many manual iterations of hyperparameter tuning, model architecture exploration, and other tweaks, no models capable of "believable" style tranfer arose.
 
 ## Twitter Message Content Classification - [Link](https://github.com/nhansendev/DTSA5511_W4/blob/main/project.ipynb)
-![image](https://github.com/user-attachments/assets/3c663c4d-f40b-4f00-87d1-ce6ed54fe98e)
+![image](https://github.com/user-attachments/assets/19244eaf-24e4-44a4-ade9-31e207975e6a)
 
 **Tools Used:**
  - python
