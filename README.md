@@ -17,7 +17,10 @@ A summary of my repositories
  	 - COVID Trends
  - Other
 	 - PyDrawNet
- - 
+ 	 - KiCAD autoBOM
+   	 - RectanglePack
+   	 - PDF Combine
+   	 - PyAudioPlayer
 
 # Data Science
 ## 3D Printer Filament Customer Review Topic Modeling -  [Link](https://github.com/nhansendev/FilamentReviewAnalysis)
@@ -172,6 +175,26 @@ Overall, three models were selected for further consideration depending on the r
 ## PyDrawNet - [Link](https://github.com/nhansendev/PyDrawNet)
 A python utility for plotting neural network (and other) diagrams
 ![image](https://github.com/user-attachments/assets/42dabde1-b3ab-4474-a352-0f524983f527)
+
+## KiCAD autoBOM - [Link](https://github.com/nhansendev/KiCAD_autoBOM)
+Python scripts for automating BOM operations in KiCAD
+![image](https://github.com/user-attachments/assets/3bdc5348-25a5-457d-ab29-100b96e0bc28)
+
+## RectanglePack - [Link](https://github.com/nhansendev/RectanglePack)
+This Python project expands on the capabilities of the rectangle-packer package primarily by adding efficient rotation checking (missing from the base package), the ability to maximize area usage of stock, and multi-sheet packing.
+![image](https://github.com/user-attachments/assets/b3c66ee1-f97a-42d1-90c3-46171b375029)
+
+## PDF Combine - [Link](https://github.com/nhansendev/PDFCombine)
+A python utility for automatically combining and trimming PDF files
+![image](https://github.com/user-attachments/assets/60f755b0-abc7-496f-b8a7-3405410b38c3)
+
+## PyAudioPlayer - [Link](https://github.com/nhansendev/PyAudioPlayer)
+An audio player GUI with yt_dlp integration, made in python using PySide6.
+![image](https://github.com/user-attachments/assets/183034ac-0dae-40ab-a3e0-f8a472b8d6b9)
+
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
