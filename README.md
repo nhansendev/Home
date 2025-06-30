@@ -14,7 +14,7 @@ A summary of my repositories
 	 - News Article Topic Classification
 	 - Patient Stroke Prediction
   	 - New York Shooting Incidents
-    	 - COVID Trends
+ 	 - COVID Trends
  - Other
 	 - PyDrawNet
  - 
