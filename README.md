@@ -11,6 +11,7 @@ A summary of my repositories
 	 - Twitter Message Content Classification
 	 - Cancerous Cell Detection
 	 - Australian Weather Clustering
+  	 - News Article Topic Classification
  - Other
 	 - PyDrawNet
  - 
@@ -105,6 +106,25 @@ Unsupervised clustering analysis will be performed to gain a better understandin
 The KMeans algorithm was used to cluster the weather stations by their weather patterns, resulting in a North-South divide with strong correlations to the maximum daily temperature.
 
 Between the dimensionality reduction algorithms Principle Component Analysis (PCA) and t-Distributed Stochastic Neighbor Embedding (TSNE) it was found that the more complex, non-linear embedding performed by TSNE better captured the structure of the data while translating to lower dimensions. PCA lost most of the available information during the transformation, but still produced plots that could be used to compare relationships between features. Since TSNE is a much slower algorithm, this results in a tradeoff between processing time and embedded feature fidelity.
+
+## News Article Topic Classification - [Link](https://github.com/nhansendev/DTSA5510_Week4_Project/blob/main/week4.ipynb)
+![image](https://github.com/user-attachments/assets/405f3190-b6f6-4ed6-a9b6-7c0241981558)
+![image](https://github.com/user-attachments/assets/7bc46076-fbc3-4741-af0f-a9a39d47011b)
+
+**Tools Used:**
+ - python
+	 - numpy, pandas, matplotlib, scikit-learn
+ - Regression, Cross-Validation, NMF, PCA
+ 
+ **Abstract:**
+The goal of this project was to train unsupervised and supervised models to predict news article topics.
+
+The BBC News Classification dataset used in the analysis was retrieved from Kaggle, and contains 2225 articles in the categories of business, entertainment, politics, sports, and technology.
+
+Logistic Regression models were fit with a testing accuract of ~99%, while NMF models reached ~96%. Observed tradeoffs of the two approaches: 
+- Logistic Regression requires labeled data, but is fast to train
+- NFM does not require labeled data, but is slower
+- Both can achieve similar levels of accuracy for this task
 
 # Other
 
