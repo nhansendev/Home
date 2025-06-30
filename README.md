@@ -8,8 +8,9 @@ A summary of my repositories
 	 - [Filament Review Analysis](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#filament-review-analysis----link)
 	 - [Deep Learning Project - Pistachio Image Classification](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#deep-learning-project---pistachio-image-classification---link)
 	 - [Applying Painting Style using GAN](https://github.com/nhansendev/Home/blob/main/README.md#applying-painting-style-using-gan---link)
-	 - [PyDrawNet](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#pydrawnet---link)
+  	 - Twitter Message Content Classification
  - Other
+	 - [PyDrawNet](https://github.com/nhansendev/Home/tree/main?tab=readme-ov-file#pydrawnet---link)
  - 
 
 # Data Science
@@ -56,12 +57,24 @@ To reach this goal the dataset (images) will be explored and pre-processed, then
 
 GANs are notoriously difficult to train, and while the model performed well in the numeric Kaggle evaluation, the subjective performance of the model was poor. Despite many manual iterations of hyperparameter tuning, model architecture exploration, and other tweaks, no models capable of "believable" style tranfer arose.
 
+## Twitter Message Content Classification - [Link](https://github.com/nhansendev/DTSA5511_W4/blob/main/project.ipynb)
+![image](https://github.com/user-attachments/assets/3c663c4d-f40b-4f00-87d1-ce6ed54fe98e)
+
+**Tools Used:**
+ - python
+	 - numpy, torch, scikit-learn, matplotlib, nltk, spacy, gensim, 
+ - LSTM, NLP, Text Classification
+ 
+ **Abstract:**
+The dataset to be analyzed was provided via Kaggle and consists of 10000 Twitter messages hand-classified on whether they are about disasters or not.
+
+The goal of the project was be to clean, explore, and encode the data, then train Recurrent Neural Network (RNN) models to perform Natural Language Processing (NLP) to predict the disaster/not disaster labels.
+
+# Other
 
 ## PyDrawNet - [Link](https://github.com/nhansendev/PyDrawNet)
 A python utility for plotting neural network (and other) diagrams
 ![image](https://github.com/user-attachments/assets/42dabde1-b3ab-4474-a352-0f524983f527)
-
-# Other
 
 
 > Written with [StackEdit](https://stackedit.io/).
