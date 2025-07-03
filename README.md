@@ -3,7 +3,8 @@
 A summary of my repositories
 
 ### Index
-
+ - Visualization
+ 	 - LCSC Part Search
  - Data Science
 	 - 3D Printer Filament Customer Review Topic Modeling
 	 - Pistachio Image Classification
@@ -26,6 +27,17 @@ A summary of my repositories
    	 - TimeMarkers
    	 - AutoConfig
    	 - DictionaryPrint
+
+# Visualization
+## LCSC Part Search - [Link](https://github.com/nhansendev/LCSCPartSearch) | [Demo](https://lcscpartsearchgit.streamlit.app/?embed_options=dark_theme)
+![image](https://github.com/user-attachments/assets/edcb4fae-0cdd-4eb2-a531-7de522e76c4d)
+A database search tool for finding LCSC parts, written in Python with Streamlit
+
+**Features**
+- Fast, responsive interface for browsing part database (tested to ~7,000,000 parts)
+- Filtering by category, part number, description, etc
+- Provides cost estimates by quantity, including price breaks (where known)
+- Download filtered table results as xlsx files
 
 # Data Science
 ## 3D Printer Filament Customer Review Topic Modeling -  [Link](https://github.com/nhansendev/FilamentReviewAnalysis)
